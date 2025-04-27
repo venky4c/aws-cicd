@@ -1,5 +1,5 @@
 # Use the official OpenJdk 21 (image from the Deocker hub)
-FROM openjdk:21
+FROM openjdk:17
 # Set working directory inside the container
 WORKDIR /app
 # Copy the compiled Java application JAR file into the container
