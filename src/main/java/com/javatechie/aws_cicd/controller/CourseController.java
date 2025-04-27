@@ -67,8 +67,8 @@ public class CourseController {
         return "UP and Running!";
     }
 
-    @GetMapping(value="/welcome")
-    public String greetings(){
-        return "Hey there, I am working fine!";
-    }
+//    @GetMapping(value="/welcome")
+//    public String greetings(){
+//        return "Hey there, I am working fine!";
+//    }
 }
